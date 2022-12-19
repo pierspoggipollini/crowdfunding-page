@@ -18,8 +18,7 @@ modalLayerSelected[3].setAttribute('aria-disabled', true);
 
 //Button-nav-mobile
 
-const mobileNav = (e) => {
-     e.preventDefault();
+const mobileNav = () => {
      primaryNav.toggleAttribute('data-visible');
      document.querySelector('.icon-hamburger').classList.toggle("open");
      primaryHeader.toggleAttribute('data-overlay');
